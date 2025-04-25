@@ -6,7 +6,7 @@
 
 ## 🧭 Introduction
 
-Cette API permet de gérer les étudiants, les cours et les notes associées. Elle offre des fonctionnalités pour créer et lister des étudiants et des cours, ajouter des notes, et calculer des moyennes.
+Cette API permet de gérer les étudiants, les cours et les notes associées. Elle offre des fonctionnalités pour créer et lister des étudiants et des cours, ajouter des notes, et calculer des moyennes. L'API a été developpé en Node JS.
 
 ---
 
