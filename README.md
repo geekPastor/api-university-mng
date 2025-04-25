@@ -13,7 +13,7 @@ Cette API permet de gérer les étudiants, les cours et les notes associées. El
 
 ## Base URL
 
-> https://api-university-mng.onrender.com
+> https://api-university-mng.onrender.com/api
 
 
 ## 🔐 Authentification
