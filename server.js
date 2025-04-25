@@ -2,13 +2,14 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const studentRoutes = require('./Routes/routes');
+require('dotenv').config(); // 🔑 Pour charger les variables d’environnement
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000; // 🔁 Utilise la variable d'env PORT si définie
 
 // ✅ CORS en premier
 app.use(cors({
-  origin: '*', // ou spécifie ton IP locale : 'http://192.168.11.196:8080'
+  origin: '*', // 🔁 En production, remplace par l’URL de ton frontend si besoin
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
